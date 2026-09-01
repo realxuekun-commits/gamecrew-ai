@@ -83,19 +83,22 @@ Task goal → Intent → Knowledge → Capability preflight → Agent collaborat
 
 ## Quick start
 
-GameCrew AI now includes a dependency-free reference Skill and CLI for turning a game-publishing brief into a traceable delivery-plan input.
+GameCrew AI 现包含零依赖的参考 Skill 与本地 CLI：把游戏发行 brief 转成可追踪的交付流程。公开 MVP 可校验 brief，并生成可审计的任务账本、角色交接与质量门产物；它不宣称是托管式生产编排服务。
+
+GameCrew AI includes a dependency-free reference Skill and local CLI for turning a game-publishing brief into a traceable delivery workflow. The public MVP validates a brief and writes auditable task, handoff and quality-gate artifacts; it does not claim to be a hosted production orchestration service.
 
 ```bash
 git clone https://github.com/realxuekun-commits/gamecrew-ai.git
 cd gamecrew-ai
 node scripts/gamecrew-ai.mjs demo
 node scripts/gamecrew-ai.mjs validate examples/launch-brief.json
+node scripts/gamecrew-ai.mjs run examples/launch-brief.json --out ./gamecrew-output
 node --test tests/gamecrew-ai.test.mjs
 ```
 
 To load the reusable instructions in Codex, copy or link [`skills/gamecrew-ai`](skills/gamecrew-ai) into your local Skill directory. The CLI has no third-party runtime dependencies.
 
-See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview and [Maintainer Guide](docs/maintainer-guide.md) for the first release and contribution workflow.
+See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview, [Local Capability Map](docs/local-capability-map.md) for local-only capabilities and fallbacks, and [Maintainer Guide](docs/maintainer-guide.md) for the contribution workflow.
 
 ## Repository scope and security
 
@@ -103,13 +106,13 @@ This public repository contains generalized architecture, documentation and sani
 
 ## Roadmap
 
-- [ ] Public demo data and sample workflow
+- [x] Public demo data and local reference workflow
 - [ ] Skill and MCP extension examples
-- [ ] Local runtime bootstrap
-- [ ] Task state and evidence schemas
+- [x] Local runtime bootstrap
+- [x] Task state, handoff and quality-gate schemas
 - [ ] Knowledge loop reference implementation
 - [ ] Community contribution guide
 
 ## License
 
-License terms will be added before the first code release.
+Released under the [MIT License](LICENSE).

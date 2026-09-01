@@ -47,6 +47,19 @@ intake → decompose → preflight → assign → execute
 
 每个阶段都有进入条件、输出和完成条件，避免用固定进度条伪装真实执行状态。
 
+### 3.1 公开参考运行时（已实现）
+
+公开版提供一个无第三方依赖的本地运行骨架：
+
+```text
+brief.json → validate → topology selection → run
+→ task-ledger.json + role-handoff.json + quality-gate-report.json
+```
+
+`run` 会把 brief 中可追溯的信息标为事实，把工作安排标为假设，并把缺失的上线时间、预算等决策信息列为未知项。质量门在未知项未解决时返回 `review_required`，不会伪装任务已完成。此模式不会调用外部 API、读取登录态、发布广告或修改预算。
+
+完整的多 Agent 实例、向量知识库和外部适配器仍属于扩展层，必须在真实权限、健康探针和回退路径存在时接入。可选本地能力及保底方案见 [本地能力与替代方案](local-capability-map.md)。
+
 ### 4. 协作拓扑
 
 - **Direct**：单领域、低风险任务直接交给一个员工。
@@ -93,6 +106,19 @@ The runtime first defines the delivery contract, then checks knowledge and capab
 ### 3. Role fit and capability preflight
 
 Role fit answers “should this employee own the work?” Capability preflight answers “can this specific runtime instance actually perform it?” Formal execution starts only after both checks pass.
+
+### 3.1 Implemented public reference runtime
+
+The public reference ships a dependency-free local path:
+
+```text
+brief.json → validate → topology selection → run
+→ task-ledger.json + role-handoff.json + quality-gate-report.json
+```
+
+`run` records traceable brief fields as facts, work allocation as assumptions, and missing decision inputs such as launch date or budget as unknowns. A quality gate remains `review_required` while those unknowns are unresolved. This mode does not call external APIs, read login state, publish campaigns or edit budgets.
+
+Real multi-agent instances, vector knowledge stores and external adapters remain extensions. Attach them only with real authorization, a health probe and a fallback; see the [Local Capability Map](local-capability-map.md).
 
 ### 4. Skills and MCPs
 

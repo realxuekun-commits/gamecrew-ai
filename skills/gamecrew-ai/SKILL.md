@@ -11,7 +11,7 @@ description: Turn a game publishing brief into a traceable, testable delivery pl
 
 ## 交付契约
 
-每次任务输入一个结构化 brief，至少包含 `title`、`audience`、`goal` 三个非空字符串；可选 `channels`（字符串数组）和 `constraints`（字符串或数组）。输出应明确：目标、假设、交付物、负责人、验收标准和待确认项。`scripts/gamecrew-ai.mjs` 提供输入校验与可复现 demo。
+每次任务输入一个结构化 brief，至少包含 `title`、`audience`、`goal` 三个非空字符串；可选 `channels`（字符串数组）和 `constraints`（字符串或数组）。输出应明确：目标、事实、假设、未知项、交付物、负责人和验收标准。`scripts/gamecrew-ai.mjs` 提供输入校验、可复现 demo 和本地运行产物。
 
 ## 工具权限边界
 
@@ -35,5 +35,7 @@ description: Turn a game publishing brief into a traceable, testable delivery pl
 node scripts/gamecrew-ai.mjs --help
 node scripts/gamecrew-ai.mjs demo
 node scripts/gamecrew-ai.mjs validate path/to/brief.json
+node scripts/gamecrew-ai.mjs run path/to/brief.json --out ./gamecrew-output
 ```
 
+`run` 仅在指定的本地输出目录生成任务账本、角色交接和质量门报告。它不读取浏览器登录态、不调用外部 API，也不代表广告发布或预算修改已获批准。需要本机专属能力或替代路径时，读取 [`docs/local-capability-map.md`](../../docs/local-capability-map.md)。
