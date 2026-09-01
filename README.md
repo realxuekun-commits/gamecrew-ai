@@ -1,12 +1,14 @@
-# 游戏发行 AI 员工全流程闭环系统
+# GameCrew AI｜游戏发行 AI 员工全流程闭环系统
 
-> 向量知识库驱动的复杂任务多 Agent 协调系统，负责游戏发行任务的高质量交付，并让智能体在持续复盘中成长。
+> 一支由向量知识库驱动的游戏发行 AI 战队，负责复杂任务的多 Agent 协调、高质量交付与持续成长。
 >
 > A vector-memory-powered multi-agent orchestration system for end-to-end game publishing workflows, high-quality delivery and continuously improving AI agents.
 
 ## 中文介绍
 
-本系统是一个本地优先、面向游戏发行的 AI 团队操作系统。它将 AI 员工、专业 Skill、MCP 工具、向量知识库、任务编排、质量验收和团队经验整合到一个完整的工作闭环中。
+GameCrew AI 是一个本地优先、面向游戏发行的 AI Team OS。它将 AI 员工、专业 Skills、MCP tools、vector knowledge memory、multi-agent orchestration、quality gates 和团队经验整合到一个完整的工作闭环中。
+
+**关键词 / Keywords**：GameCrew AI、game publishing AI、AI employees、multi-agent orchestration、AI agent team、vector knowledge base、MCP、AI workflow、game launch、live operations。
 
 系统关注的不是一次回答得多快，而是复杂游戏发行工作能否持续、稳定、可追踪地完成：
 
@@ -47,7 +49,7 @@ AI 员工系统  —— 谁来做
 
 ## English Introduction
 
-This system is a local-first AI Team OS built for game publishing. It combines role-based AI employees, reusable Skills, MCP tools, vector knowledge memory, task orchestration, quality gates and organizational learning into one closed loop.
+GameCrew AI is a local-first AI Team OS built for game publishing. It combines role-based AI employees, reusable Skills, MCP tools, vector knowledge memory, multi-agent orchestration, quality gates and organizational learning into one closed loop.
 
 Lingxi is designed for reliable knowledge work, not one-off chat answers:
 
