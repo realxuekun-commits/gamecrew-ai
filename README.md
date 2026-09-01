@@ -10,7 +10,7 @@ GameCrew AI 不止让智能体参与任务，更让专业 AI 员工围绕交付�
 
 GameCrew AI goes beyond agent participation: specialized AI employees coordinate, execute, verify and learn around a shared delivery goal.
 
-![GameCrew AI product key visual](assets/gamecrew-ai-kv-v3.png)
+![GameCrew AI product key visual](assets/gamecrew-ai-kv-v5-product-system.png)
 
 ## 中文介绍
 
