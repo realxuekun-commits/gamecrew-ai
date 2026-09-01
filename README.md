@@ -83,7 +83,19 @@ Task goal → Intent → Knowledge → Capability preflight → Agent collaborat
 
 ## Quick start
 
-This repository currently focuses on the product model, runtime design and safe extension contracts. See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview.
+GameCrew AI now includes a dependency-free reference Skill and CLI for turning a game-publishing brief into a traceable delivery-plan input.
+
+```bash
+git clone https://github.com/realxuekun-commits/gamecrew-ai.git
+cd gamecrew-ai
+node scripts/gamecrew-ai.mjs demo
+node scripts/gamecrew-ai.mjs validate examples/launch-brief.json
+node --test tests/gamecrew-ai.test.mjs
+```
+
+To load the reusable instructions in Codex, copy or link [`skills/gamecrew-ai`](skills/gamecrew-ai) into your local Skill directory. The CLI has no third-party runtime dependencies.
+
+See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview and [Maintainer Guide](docs/maintainer-guide.md) for the first release and contribution workflow.
 
 ## Repository scope and security
 
