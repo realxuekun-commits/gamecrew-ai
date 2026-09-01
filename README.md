@@ -1,14 +1,14 @@
-# 灵犀 AI Team OS
+# 游戏发行 AI 员工全流程闭环系统
 
-> 让 AI 从一个会聊天的助手，变成一个能分工、会执行、有证据、可复盘的工作团队。
+> 向量知识库驱动的复杂任务多 Agent 协调系统，负责游戏发行任务的高质量交付，并让智能体在持续复盘中成长。
 >
-> Turn AI from a single chat assistant into a team that can coordinate, execute, verify and learn.
+> A vector-memory-powered multi-agent orchestration system for end-to-end game publishing workflows, high-quality delivery and continuously improving AI agents.
 
 ## 中文介绍
 
-灵犀 AI Team OS 是一个本地优先的 AI 团队操作系统。它将 AI 员工、专业 Skill、MCP 工具、任务编排、质量验收和团队知识整合到一个可运行的工作系统中。
+本系统是一个本地优先、面向游戏发行的 AI 团队操作系统。它将 AI 员工、专业 Skill、MCP 工具、向量知识库、任务编排、质量验收和团队经验整合到一个完整的工作闭环中。
 
-灵犀关注的不是一次回答得多快，而是复杂工作能否持续、稳定、可追踪地完成：
+系统关注的不是一次回答得多快，而是复杂游戏发行工作能否持续、稳定、可追踪地完成：
 
 ```text
 任务目标 → 需求判断 → 知识检索 → 能力预检 → 员工协作
@@ -17,6 +17,11 @@
 
 ### 核心卖点
 
+- **游戏发行专用**：覆盖市场、数据、创意、投放、运营、知识和工程等发行环节。
+- **向量知识库驱动**：让历史项目、复盘经验和方法规范可检索、可引用、可持续更新。
+- **复杂任务多 Agent 协调**：根据交付目标进行角色路由、并行协作和上下游流水线编排。
+- **高质量闭环交付**：从需求判断、能力预检到证据验收和结构化交付，全程可追踪。
+- **可持续成长智能体**：将有效方法、失败原因和适用边界沉淀为下一次任务可复用的团队记忆。
 - **AI 员工化**：按市场、数据、创意、投放、运营、知识和工程等岗位组织专业能力。
 - **任务编排化**：支持单员工执行、多员工并行和上下游流水线协作。
 - **能力模块化**：统一管理 Skill、MCP、API 和本地工具，并按员工授权。
@@ -42,7 +47,7 @@ AI 员工系统  —— 谁来做
 
 ## English Introduction
 
-Lingxi AI Team OS is a local-first operating system for AI teams. It brings together role-based AI employees, reusable Skills, MCP tools, task orchestration, quality gates and organizational memory.
+This system is a local-first AI Team OS built for game publishing. It combines role-based AI employees, reusable Skills, MCP tools, vector knowledge memory, task orchestration, quality gates and organizational learning into one closed loop.
 
 Lingxi is designed for reliable knowledge work, not one-off chat answers:
 
@@ -53,6 +58,11 @@ Task goal → Intent → Knowledge → Capability preflight → Agent collaborat
 
 ### Core value propositions
 
+- **Built for game publishing** across market strategy, data, creative, growth, operations, knowledge and engineering.
+- **Vector knowledge memory** that makes project history, lessons and playbooks searchable, citable and continuously maintainable.
+- **Multi-agent coordination for complex work** with role routing, parallel execution and sequential pipelines.
+- **High-quality closed-loop delivery** from intent and capability checks to evidence-backed review and structured outputs.
+- **Continuously improving agents** that learn from validated methods, failures and applicability boundaries.
 - **Role-based AI employees** for strategy, data, creative, growth, operations, knowledge and engineering work.
 - **Task orchestration** across direct execution, parallel fan-out and sequential pipelines.
 - **Composable capabilities** through governed Skills, MCP servers, APIs and local tools.
@@ -81,4 +91,3 @@ This public repository contains generalized architecture, documentation and sani
 ## License
 
 License terms will be added before the first code release.
-

@@ -1,6 +1,8 @@
-# 灵犀 AI Team OS：整体运行逻辑与细节设计
+# 游戏发行 AI 员工全流程闭环系统：整体运行逻辑与细节设计
 
 ## 中文
+
+本系统围绕“向量知识库 + 多 Agent 协调 + 质量验收 + 持续成长”构建游戏发行 AI 工作闭环。知识库负责提供可检索的上下文，多 Agent 负责复杂任务分工，运行时负责阶段控制，验收层负责交付质量，复盘层负责让系统持续成长。
 
 ### 1. 总体架构
 
@@ -73,6 +75,8 @@ SQLite 保存员工、Skill、MCP、任务、执行、证据、评审和复盘�
 
 ## English
 
+This product is built around a closed loop of vector knowledge memory, multi-agent coordination, quality gates and continuous agent improvement for game publishing. The knowledge layer provides retrievable context, agents divide complex work, the runtime controls execution stages, review gates protect delivery quality, and retrospectives improve future performance.
+
 ### 1. Architecture
 
 Lingxi is organized into six layers: user entry, task runtime, role-based agents, capability layer, factual state and organizational memory. The runtime coordinates these layers without exposing private business data.
@@ -101,4 +105,3 @@ Every meaningful task has a delivery contract, execution state, evidence referen
 ### 6. Recovery and memory
 
 Failures are diagnosed by root cause. The runtime can reroute work, rerun a capability preflight, use an approved fallback, request targeted rework or stop with a bounded failure report. Successful methods and failure lessons are distilled into reusable organizational memory.
-
