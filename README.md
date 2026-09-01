@@ -4,6 +4,8 @@
 >
 > A vector-memory-powered multi-agent orchestration system for end-to-end game publishing workflows, high-quality delivery and continuously improving AI agents.
 
+![GameCrew AI product key visual](assets/gamecrew-ai-kv-v1.png)
+
 ## 中文介绍
 
 GameCrew AI 是一个本地优先、面向游戏发行的 AI Team OS。它将 AI 员工、专业 Skills、MCP tools、vector knowledge memory、multi-agent orchestration、quality gates 和团队经验整合到一个完整的工作闭环中。
