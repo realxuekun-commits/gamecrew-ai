@@ -25,7 +25,7 @@ GameCrew AI 是一个本地优先、面向游戏发行的 AI Team OS。它将 AI
 → 工具调用 → 结构化交付 → 质量验收 → 复盘沉淀
 ```
 
-### 核心卖点
+### 核心能力
 
 - **游戏发行专用**：覆盖市场、数据、创意、投放、运营、知识和工程等发行环节。
 - **向量知识库驱动**：让历史项目、复盘经验和方法规范可检索、可引用、可持续更新。
@@ -66,7 +66,7 @@ Task goal → Intent → Knowledge → Capability preflight → Agent collaborat
 → Tool execution → Structured delivery → Quality review → Retrospective memory
 ```
 
-### Core value propositions
+### Core capabilities
 
 - **Built for game publishing** across market strategy, data, creative, growth, operations, knowledge and engineering.
 - **Vector knowledge memory** that makes project history, lessons and playbooks searchable, citable and continuously maintainable.
