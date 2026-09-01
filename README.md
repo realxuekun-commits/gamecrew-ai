@@ -4,7 +4,13 @@
 >
 > A vector-memory-powered multi-agent orchestration system for end-to-end game publishing workflows, high-quality delivery and continuously improving AI agents.
 
-![GameCrew AI product key visual](assets/gamecrew-ai-kv-v2.png)
+## 智能体交付 · Agentic Delivery
+
+GameCrew AI 不止让智能体参与任务，更让专业 AI 员工围绕交付目标完成协作、执行、验证和学习。
+
+GameCrew AI goes beyond agent participation: specialized AI employees coordinate, execute, verify and learn around a shared delivery goal.
+
+![GameCrew AI product key visual](assets/gamecrew-ai-kv-v3.png)
 
 ## 中文介绍
 
