@@ -4,7 +4,7 @@
 >
 > A vector-memory-powered multi-agent orchestration system for end-to-end game publishing workflows, high-quality delivery and continuously improving AI agents.
 
-![GameCrew AI product key visual](assets/gamecrew-ai-kv-v1.png)
+![GameCrew AI product key visual](assets/gamecrew-ai-kv-v2.png)
 
 ## 中文介绍
 
