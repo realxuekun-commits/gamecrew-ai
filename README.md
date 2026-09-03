@@ -118,6 +118,8 @@ See [Architecture & Runtime Design](docs/architecture.md) for the bilingual tech
 
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+想让另一个 Codex 自动安装，可直接复制 [一键安装提示词](docs/install-prompt.md)。
+
 ### 灵犀核心提示词扩展包
 
 从 [`extensions/lingxi-core-prompts`](extensions/lingxi-core-prompts) 选择策略、创意、增长、运营、知识或工程模块。每个模块都提供可直接复制的 Prompt、输入输出契约、所需能力、权限边界和无三方 fallback；Prompt 不会自动授予内部 Skill、MCP 或数据权限。
