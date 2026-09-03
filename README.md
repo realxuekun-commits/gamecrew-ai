@@ -10,6 +10,12 @@ GameCrew AI 不止让智能体参与任务，更让专业 AI 员工围绕交付�
 
 GameCrew AI goes beyond agent participation: specialized AI employees coordinate, execute, verify and learn around a shared delivery goal.
 
+### 产品定位
+
+灵犀不是“会聊天的 AI”，而是一套让专业 AI 员工持续完成复杂工作的本地优先运行系统：**可进化智能体员工 + 混合知识 + 证据交付 + 状态化协作 + 人工可控**。
+
+完整产品包装见 [Lingxi Product Positioning](docs/product-positioning.md)。
+
 ![GameCrew AI product key visual](assets/gamecrew-ai-kv-v5-product-system.png)
 
 ## 中文介绍
@@ -100,6 +106,8 @@ To load the reusable instructions in Codex, copy or link [`skills/gamecrew-ai`](
 
 See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview, [Local Capability Map](docs/local-capability-map.md) for local-only capabilities and fallbacks, and [Maintainer Guide](docs/maintainer-guide.md) for the contribution workflow.
 
+前沿设计模块见 [Frontier Knowledge & Agent Runtime Patterns](docs/frontier-knowledge-agent-runtime.md)：涵盖混合检索、事件/证据账本、状态化任务图、结构化 Agent 交接和评估安全门。
+
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ### 灵犀核心提示词扩展包
@@ -128,6 +136,7 @@ This public repository contains generalized architecture, documentation and sani
 
 - [x] Public demo data and local reference workflow
 - [ ] Skill and MCP extension examples
+- [x] Frontier knowledge and agent runtime design module
 - [x] Local runtime bootstrap
 - [x] Task state, handoff and quality-gate schemas
 - [x] Local knowledge setup wizard and lexical fallback

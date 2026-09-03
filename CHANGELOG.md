@@ -5,6 +5,8 @@
 - Added `extensions/lingxi-core-prompts`, a bilingual modular prompt package for strategy, creative, growth, operations, knowledge and engineering employees.
 - Added a manifest with optional capability mappings and explicit permission boundaries.
 - Added no-integration fallbacks for every module so Lingxi users can start from local files, CSV/JSON fixtures and manual approval.
+- Added a frontier design module covering hybrid retrieval, evidence ledgers, stateful agent graphs, handoff contracts, tracing and evaluation gates.
+- Added a bilingual product-positioning module for packaging Lingxi's advanced capabilities with explicit evidence boundaries.
 
 ## v0.3.0 — 2026-09-03
 
