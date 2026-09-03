@@ -100,6 +100,8 @@ To load the reusable instructions in Codex, copy or link [`skills/gamecrew-ai`](
 
 See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview, [Local Capability Map](docs/local-capability-map.md) for local-only capabilities and fallbacks, and [Maintainer Guide](docs/maintainer-guide.md) for the contribution workflow.
 
+更新记录见 [CHANGELOG.md](CHANGELOG.md)。
+
 ### Knowledge Setup Wizard
 
 下载者可以不接入任何第三方服务，按向导在本地搭建知识库：
