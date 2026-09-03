@@ -1,4 +1,4 @@
-# Lingxi Product Positioning | 灵犀产品定位
+# Lingxi Frontier Agent Design & Capability Specification | 灵犀 AI 智能体前沿设计规范与能力说明
 
 ## 一句话定位
 
@@ -73,4 +73,3 @@ INTAKE → PLAN → EXECUTE → REVIEW → APPROVED → MEMORY
 - 不说“向量库保证准确”；说“混合检索 + 来源证据 + 低置信度停机”。
 - 不说“自动发布广告”；说“生成可审批的发布包”。
 - 不说“已经领先所有 Agent 平台”；说“采用当前主流前沿的混合检索、结构化交接、状态化编排和评审优化模式”。
-

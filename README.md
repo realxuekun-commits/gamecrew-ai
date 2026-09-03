@@ -14,7 +14,7 @@ GameCrew AI goes beyond agent participation: specialized AI employees coordinate
 
 灵犀不是“会聊天的 AI”，而是一套让专业 AI 员工持续完成复杂工作的本地优先运行系统：**可进化智能体员工 + 混合知识 + 证据交付 + 状态化协作 + 人工可控**。
 
-完整产品包装见 [Lingxi Product Positioning](docs/product-positioning.md)。
+AI 智能体前沿设计规范与能力说明见 [Lingxi Product Positioning](docs/product-positioning.md)。
 
 ![GameCrew AI product key visual](assets/gamecrew-ai-kv-v5-product-system.png)
 

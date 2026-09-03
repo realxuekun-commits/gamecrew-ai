@@ -8,6 +8,7 @@
 - Added a frontier design module covering hybrid retrieval, evidence ledgers, stateful agent graphs, handoff contracts, tracing and evaluation gates.
 - Added a bilingual product-positioning module for packaging Lingxi's advanced capabilities with explicit evidence boundaries.
 - Added `assets/lingxi-avatar.png`, a square transparent avatar for Lingxi / GameCrew AI profiles.
+- Renamed the positioning entry to emphasize frontier AI-agent design and capability specifications.
 
 ## v0.3.0 — 2026-09-03
 
