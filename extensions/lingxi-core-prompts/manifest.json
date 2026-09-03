@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "package": "lingxi-core-prompts",
+  "version": "0.1.0",
+  "language": ["zh-CN", "en"],
+  "modules": [
+    {"id": "strategy", "prompt": "prompts/01-strategy.md", "optionalCapabilities": ["web-research", "market-data"]},
+    {"id": "creative", "prompt": "prompts/02-creative.md", "optionalCapabilities": ["zk-creative-process", "appgrowing-creative-analysis"]},
+    {"id": "growth", "prompt": "prompts/03-growth.md", "optionalCapabilities": ["ad-material-query", "dart-game-situation-query", "BI"]},
+    {"id": "operations", "prompt": "prompts/04-operations.md", "optionalCapabilities": ["browser-research", "social-research"]},
+    {"id": "knowledge", "prompt": "prompts/05-knowledge.md", "optionalCapabilities": ["local-knowledge-wizard", "vector-store"]},
+    {"id": "engineering", "prompt": "prompts/06-engineering.md", "optionalCapabilities": ["MCP", "local-runtime", "SQLite"]}
+  ],
+  "security": "Prompts do not grant permissions or include credentials. External writes require separate user authorization."
+}
