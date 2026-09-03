@@ -39,3 +39,5 @@ node scripts/gamecrew-ai.mjs run path/to/brief.json --out ./gamecrew-output
 ```
 
 `run` 仅在指定的本地输出目录生成任务账本、角色交接和质量门报告。它不读取浏览器登录态、不调用外部 API，也不代表广告发布或预算修改已获批准。需要本机专属能力或替代路径时，读取 [`docs/local-capability-map.md`](../../docs/local-capability-map.md)。
+
+需要创建或使用本地知识库时，使用 `knowledge init/import/index/query/doctor`。默认索引是离线词法 fallback，不得称为语义向量检索；接入 embedding 或外部服务前必须验证权限、数据范围和回退路径。

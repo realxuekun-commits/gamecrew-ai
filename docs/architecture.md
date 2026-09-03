@@ -58,7 +58,7 @@ brief.json → validate → topology selection → run
 
 `run` 会把 brief 中可追溯的信息标为事实，把工作安排标为假设，并把缺失的上线时间、预算等决策信息列为未知项。质量门在未知项未解决时返回 `review_required`，不会伪装任务已完成。此模式不会调用外部 API、读取登录态、发布广告或修改预算。
 
-完整的多 Agent 实例、向量知识库和外部适配器仍属于扩展层，必须在真实权限、健康探针和回退路径存在时接入。可选本地能力及保底方案见 [本地能力与替代方案](local-capability-map.md)。
+公开版现在提供本地知识搭建向导和可复现的词法索引；真正的语义向量模型、完整多 Agent 实例和外部适配器仍属于扩展层，必须在真实权限、健康探针和回退路径存在时接入。可选本地能力及保底方案见 [本地能力与替代方案](local-capability-map.md)，向导见 [知识库搭建向导](knowledge-setup.md)。
 
 ### 4. 协作拓扑
 
@@ -118,7 +118,7 @@ brief.json → validate → topology selection → run
 
 `run` records traceable brief fields as facts, work allocation as assumptions, and missing decision inputs such as launch date or budget as unknowns. A quality gate remains `review_required` while those unknowns are unresolved. This mode does not call external APIs, read login state, publish campaigns or edit budgets.
 
-Real multi-agent instances, vector knowledge stores and external adapters remain extensions. Attach them only with real authorization, a health probe and a fallback; see the [Local Capability Map](local-capability-map.md).
+The public reference now includes a local setup wizard and deterministic lexical index. Semantic embedding models, real multi-agent instances and external adapters remain extensions. Attach them only with real authorization, a health probe and a fallback; see the [Local Capability Map](local-capability-map.md) and [Knowledge Setup Wizard](knowledge-setup.md).
 
 ### 4. Skills and MCPs
 

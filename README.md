@@ -100,6 +100,20 @@ To load the reusable instructions in Codex, copy or link [`skills/gamecrew-ai`](
 
 See [Architecture & Runtime Design](docs/architecture.md) for the bilingual technical overview, [Local Capability Map](docs/local-capability-map.md) for local-only capabilities and fallbacks, and [Maintainer Guide](docs/maintainer-guide.md) for the contribution workflow.
 
+### Knowledge Setup Wizard
+
+下载者可以不接入任何第三方服务，按向导在本地搭建知识库：
+
+```bash
+node scripts/gamecrew-ai.mjs knowledge init ./knowledge
+node scripts/gamecrew-ai.mjs knowledge import ./docs --dir ./knowledge
+node scripts/gamecrew-ai.mjs knowledge index --dir ./knowledge
+node scripts/gamecrew-ai.mjs knowledge query "海外素材测试" --dir ./knowledge
+node scripts/gamecrew-ai.mjs knowledge doctor --dir ./knowledge
+```
+
+向导默认使用可复现的离线词法索引；已有向量库或本地 embedding 模型可通过 adapter 接入。详见 [Knowledge Setup Wizard](docs/knowledge-setup.md)。
+
 ## Repository scope and security
 
 This public repository contains generalized architecture, documentation and sanitized examples only. Never commit API keys, tokens, cookies, passwords, internal databases, real user data, private network addresses, production logs or confidential business rules.
@@ -110,7 +124,7 @@ This public repository contains generalized architecture, documentation and sani
 - [ ] Skill and MCP extension examples
 - [x] Local runtime bootstrap
 - [x] Task state, handoff and quality-gate schemas
-- [ ] Knowledge loop reference implementation
+- [x] Local knowledge setup wizard and lexical fallback
 - [ ] Community contribution guide
 
 ## License
