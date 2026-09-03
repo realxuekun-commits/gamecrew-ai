@@ -47,6 +47,9 @@ GameCrew AI 是一个本地优先、面向游戏发行的 AI Team OS。它将 AI
 - **失败可恢复**：区分职责、连接、授权、数据和质量问题，提供重试、重路由和保底路径。
 - **团队记忆化**：将有效方法、失败原因和适用边界沉淀为可复用知识。
 - **本地优先**：使用本地客户端和 SQLite 管理状态，明确数据、权限和外部工具边界。
+- **提示词能力构建**：把岗位职责、输入输出、工具边界、失败恢复和验收标准编译成可复用 Prompt 模块。
+- **上下文工程**：按任务阶段筛选知识、压缩历史、保留证据引用，只把必要上下文交给对应员工，降低噪声与泄露面。
+- **本地中文检索模型**：支持接入本地中文 Embedding、分词与重排序模型；没有模型时自动回退到零依赖词法检索，知识和模型均可留在本机。
 
 ### 系统由什么组成
 
@@ -88,6 +91,9 @@ Task goal → Intent → Knowledge → Capability preflight → Agent collaborat
 - **Bounded recovery** for routing, connection, authorization, data and quality failures.
 - **Organizational memory** that turns useful methods and lessons into reusable knowledge.
 - **Local-first control** with local runtime state, SQLite persistence and explicit security boundaries.
+- **Prompt capability engineering** that turns role boundaries, contracts, recovery and acceptance criteria into reusable modules.
+- **Context engineering** that selects, compresses and cites only the context needed for each task stage.
+- **Local Chinese retrieval adapters** for Chinese embeddings, tokenization and reranking, with a deterministic lexical fallback when no model is installed.
 
 ## Quick start
 
