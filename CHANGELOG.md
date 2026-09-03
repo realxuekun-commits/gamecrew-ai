@@ -7,6 +7,7 @@
 - Added no-integration fallbacks for every module so Lingxi users can start from local files, CSV/JSON fixtures and manual approval.
 - Added a frontier design module covering hybrid retrieval, evidence ledgers, stateful agent graphs, handoff contracts, tracing and evaluation gates.
 - Added a bilingual product-positioning module for packaging Lingxi's advanced capabilities with explicit evidence boundaries.
+- Added `assets/lingxi-avatar.png`, a square transparent avatar for Lingxi / GameCrew AI profiles.
 
 ## v0.3.0 — 2026-09-03
 

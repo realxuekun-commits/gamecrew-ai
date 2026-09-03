@@ -18,6 +18,12 @@ GameCrew AI goes beyond agent participation: specialized AI employees coordinate
 
 ![GameCrew AI product key visual](assets/gamecrew-ai-kv-v5-product-system.png)
 
+### Lingxi avatar
+
+![Lingxi avatar](assets/lingxi-avatar.png)
+
+The avatar uses two connected blue forms and a central spark to represent collaborative, evolving intelligence. It is supplied as a transparent PNG for GitHub, chat profiles and local workstations.
+
 ## 中文介绍
 
 GameCrew AI 是一个本地优先、面向游戏发行的 AI Team OS。它将 AI 员工、专业 Skills、MCP tools、vector knowledge memory、multi-agent orchestration、quality gates 和团队经验整合到一个完整的工作闭环中。
