@@ -9,6 +9,7 @@
 - Added a bilingual product-positioning module for packaging Lingxi's advanced capabilities with explicit evidence boundaries.
 - Added `assets/lingxi-avatar.png`, a square transparent avatar for Lingxi / GameCrew AI profiles.
 - Renamed the positioning entry to emphasize frontier AI-agent design and capability specifications.
+- Kept the avatar as a downloadable asset while removing its inline display from the README article.
 
 ## v0.3.0 — 2026-09-03
 

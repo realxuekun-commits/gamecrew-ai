@@ -18,11 +18,7 @@ AI 智能体前沿设计规范与能力说明见 [Lingxi Product Positioning](do
 
 ![GameCrew AI product key visual](assets/gamecrew-ai-kv-v5-product-system.png)
 
-### Lingxi avatar
-
-![Lingxi avatar](assets/lingxi-avatar.png)
-
-The avatar uses two connected blue forms and a central spark to represent collaborative, evolving intelligence. It is supplied as a transparent PNG for GitHub, chat profiles and local workstations.
+Avatar asset: [`assets/lingxi-avatar.png`](assets/lingxi-avatar.png) (download for GitHub, chat profiles or local workstations; not displayed in this article).
 
 ## 中文介绍
 
